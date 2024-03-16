@@ -2,13 +2,13 @@
     padding:0;
     margin:0;
 }
-header {
+.header {
     background-color:rgba(41, 34, 32, 0.677);
     height:80px;
     width:100%;
     position:fixed;    
 }
-h1 {
+.h1 {
     color:rgb(224, 219, 219);
     position:absolute;
     left:80px;
@@ -19,21 +19,21 @@ h1 {
     width:210x;
     text-indent: 30px; 
 }
-header ul {
+.header ul {
     position:absolute;
     right:5vw;
     top:0;
     line-height:80px;
 }
-header li {
+.header li {
     display:inline;
     margin-right:4vw;    
 }
-header a {
+.header a {
     color:white;
     text-decoration: none;
 }
-header a:hover {
+.header a:hover {
     text-decoration: underline;
 }
 .news {
@@ -159,14 +159,14 @@ header a:hover {
     width:80px;
     cursor:pointer;
 }
-input::placeholder {
+.input::placeholder {
     color:#DDDDDD;
 }
-input:focus {
+.input:focus {
     outline: none; 
     border-color:#E0E9A3; 
 }
-footer {
+.footer {
     background-color:#000000;
     color:#B7B7B7;
     height:60px;

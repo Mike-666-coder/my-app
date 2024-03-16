@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import haeder from './header.js';
-import navBar from './navBar.js';
-import news from './news.js';
-import product from './product.js';
-import shop from './shop.js';
-import solgan from './solgan.js';
-import footer from './footer.js';
+import header from './header.jsx';
+import navBar from './navBar.jsx';
+import news from './news.jsx';
+import product from './product.jsx';
+import shop from './shop.jsx';
+import solgan from './solgan.jsx';
+import footer from './footer.jsx';
+import styled from `@emotion/styled`;
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         >
           Learn React
         </a>
+        App.jsx
       </header>
     </div>
   );
