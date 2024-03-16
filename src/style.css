@@ -19,21 +19,21 @@ h1 {
     width:210x;
     text-indent: 30px; 
 }
-nav ul {
+header ul {
     position:absolute;
     right:5vw;
     top:0;
     line-height:80px;
 }
-nav li {
+header li {
     display:inline;
     margin-right:4vw;    
 }
-nav a {
+header a {
     color:white;
     text-decoration: none;
 }
-nav a:hover {
+header a:hover {
     text-decoration: underline;
 }
 .news {
