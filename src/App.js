@@ -1,31 +1,23 @@
 import logo from './logo.svg';
-import header from './header.jsx';
-import navBar from './navBar.jsx';
-import news from './news.jsx';
-import product from './product.jsx';
-import shop from './shop.jsx';
-import solgan from './solgan.jsx';
-import footer from './footer.jsx';
-import styled from `@emotion/styled`;
+import Header from './header.js';
+import NavBar from './navBar.js';
+import News from './news.js';
+import Product from './product.js';
+import Shop from './shop.js';
+import Solgan from './solgan.js';
+import Footer from './footer.js';
+// import styled from '@emotion/styled';
 
 function App() {
   return (
     <div className="App">
-            <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        App.jsx
-      </header>
+        <Header />
+        <NavBar />
+        <News />
+        <Product />
+        <Shop />
+        <Solgan />
+        <Footer />
     </div>
   );
 }
