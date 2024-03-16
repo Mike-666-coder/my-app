@@ -1,0 +1,225 @@
+* {
+    padding:0;
+    margin:0;
+}
+header {
+    background-color:rgba(41, 34, 32, 0.677);
+    height:80px;
+    width:100%;
+    position:fixed;    
+}
+h1 {
+    color:rgb(224, 219, 219);
+    position:absolute;
+    left:80px;
+    top:0;
+    line-height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:210x;
+    text-indent: 30px; 
+}
+header ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:80px;
+}
+header li {
+    display:inline;
+    margin-right:4vw;    
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.news {
+    background-color: antiquewhite;
+    color:white;
+    height:95vh;
+    background-image: url("image/bread-eggs-and-wheat.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+} 
+.news h2 {
+    color:rgb(236, 230, 230);
+    font-size:60px;
+    margin-top:60px;
+} 
+.news p {
+    color:#ffffff;
+    font-size:18px;
+    margin:25px 0;
+}
+.news a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.slogan {
+    background-color:#485652;
+    color:rgb(217, 217, 213);
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1.8em;
+
+}
+.shop {
+    display:flex;
+}
+.shop img {
+    background-image: url("image/images (1).jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:50%;
+}
+.info {
+    width:50%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2 {
+    font-size:40px;
+    margin-bottom: 30px;
+}
+.info p {
+    text-align: center;
+    line-height: 2em;
+}
+.product {
+    display:flex;
+    background-color: #ede9db;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.product > div {
+    height:250px;
+    width: auto;
+    text-align:center;
+}
+.productImg {
+    height: 100px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+.product img {
+    width:60%;
+    border-radius: 10px;
+}
+.product h3 {
+    font-size: 20px;    
+    margin: 20px 0;
+}
+.product p {
+    font-size:14px;
+    line-height: 1.6em;
+}
+.newsletter {
+    background-color:#485652;
+    color:white;
+    padding:60px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p {
+    margin-bottom: 20px;
+}
+.newsletter input, .newsletter button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid #949d9a; 
+    padding: 10px; 
+    border-radius: 5px;;
+}
+.newsletter input {
+    width:200px;
+    margin-right: 15px;;
+}
+.newsletter button {
+    width:80px;
+    cursor:pointer;
+}
+input::placeholder {
+    color:#DDDDDD;
+}
+input:focus {
+    outline: none; 
+    border-color:#E0E9A3; 
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.menu {
+    display:none;
+}
+
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+header ul {
+    display:none;
+}
+header h1 {
+    left:50%;
+    transform: translateX(-50%);
+}
+.news h2 {
+    font-size:40px;
+}
+.menu {
+    display:block;
+    background-color: transparent;
+    color:white;
+    font-size: 35px;
+    position:absolute;
+    top:15px;
+    left:20px;
+    border:none;
+    cursor: pointer;
+}
+.shop {
+    flex-direction: column;
+}
+.shop img {
+    width:100%;
+}
+.info {
+    width:100%;
+    padding:40px 0;
+}
+.info h2 {
+    font-size:30px;
+}
+.product {
+    flex-direction: column;
+    padding: 60px 0;
+}
+.product div {
+    margin-bottom: 30px;
+}
+}

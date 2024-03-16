@@ -1,10 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import haeder from './header.js';
+import navBar from './navBar.js';
+import news from './news.js';
+import product from './product.js';
+import shop from './shop.js';
+import solgan from './solgan.js';
+import footer from './footer.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+            <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -23,3 +29,4 @@ function App() {
 }
 
 export default App;
+
