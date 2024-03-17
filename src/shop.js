@@ -1,7 +1,7 @@
 import React from "react";
 import myImage from './image/images (1).jpeg';
 
-const shop = () => {
+const Shop = () => {
     return (
         <div>
              <section className="shop">
@@ -16,4 +16,4 @@ const shop = () => {
     )
 }
 
-export default shop;
+export default Shop;

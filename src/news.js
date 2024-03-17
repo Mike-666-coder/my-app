@@ -1,6 +1,6 @@
 import React from "react";
 
-const news = () => {
+const News = () => {
         return(
             <div>
               <section className="news">
@@ -12,4 +12,4 @@ const news = () => {
         )
     }
 
-    export default news;
+    export default News;

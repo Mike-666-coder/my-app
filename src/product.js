@@ -3,7 +3,7 @@ import IMG_1506 from './image/IMG_1506.PNG';
 import IMG_1507 from './image/IMG_1507.PNG';
 import IMG_1509 from './image/IMG_1509.PNG';
 
-const product = () => {
+const Product = () => {
     return(
         <section className="product">
         <div>
@@ -31,4 +31,4 @@ const product = () => {
     )
 }
 
-export default product;
+export default Product;
