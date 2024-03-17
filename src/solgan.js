@@ -1,6 +1,6 @@
 import React from "react";
 
-const solgan = () =>{
+const Solgan = () =>{
   return (
    <div>
     <section className="slogan">
@@ -10,4 +10,4 @@ const solgan = () =>{
   )
 }
 
-export default solgan;
+export default Solgan;
