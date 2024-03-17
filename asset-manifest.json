@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.e1313ea0.css",
+    "main.js": "/my-app/static/js/main.792b22a6.js",
+    "static/media/IMG_1509.PNG": "/my-app/static/media/IMG_1509.04ca056a2fbae722dc6c.PNG",
+    "static/media/IMG_1506.PNG": "/my-app/static/media/IMG_1506.23f8bfcb5cc31a34b4ae.PNG",
+    "static/media/IMG_1507.PNG": "/my-app/static/media/IMG_1507.9344ca6dc59671d58459.PNG",
+    "static/media/bread-eggs-and-wheat.jpg": "/my-app/static/media/bread-eggs-and-wheat.524bb948baae31ba36c7.jpg",
+    "index.html": "/my-app/index.html",
+    "main.e1313ea0.css.map": "/my-app/static/css/main.e1313ea0.css.map",
+    "main.792b22a6.js.map": "/my-app/static/js/main.792b22a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1313ea0.css",
+    "static/js/main.792b22a6.js"
+  ]
+}
